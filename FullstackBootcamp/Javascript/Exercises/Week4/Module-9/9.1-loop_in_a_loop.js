@@ -17,11 +17,9 @@ const listOfNeighbours = [ ["Canada", "Mexico"],
 
 for(let i = 0 ; i < listOfNeighbours.length ; i++){
 
-    for(let j = 0 ; j < listOfNeighbours.length ; j++){
-        if(listOfNeighbours[i][j] !== -1) {
+    for(let j = 0 ; j < listOfNeighbours[i].length ; j++){
+
             console.log(listOfNeighbours[i][j]);
-        }
     }
-
-
 }
+
